@@ -4,7 +4,13 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        display: ["Roboto Mono", "Menlo", "monospace"],
+        body: ["Roboto Mono", "Menlo", "monospace"],
+        secular: ["Secular One", "sans-serif"],
+      }
   },
+},
   plugins: [],
 }

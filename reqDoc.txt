@@ -1,0 +1,23 @@
+1. user login with web3 wallet
+2. look at listed nfts
+3. create nft and list in marketplace
+4. Buy & sell nfts in marketplace 
+5. maintain a creator (artist) profile
+6. classify nfts into trending, featured ....
+7. History for exchanges
+8. Favourites 
+9. Light / Dark mode
+
+
+- components
+
+1. home
+2. dashboard
+3. mint
+4. account
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+font-family: 'Secular One', sans-serif;

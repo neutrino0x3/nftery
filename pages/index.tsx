@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import { web3Login } from "../services/web3auth";
+// import { web3Login } from "../services/web3auth";
 
 const Index = () => {
   const router = useRouter();
@@ -10,7 +10,7 @@ const Index = () => {
 
   useEffect(() => {
     if (web3Provider) {
-    //   router.push("/home");
+      //   router.push("/home");
     }
   }, [web3Provider]);
 
