@@ -11,8 +11,7 @@ import { IoIosSettings } from "react-icons/io";
 import { FaWallet, FaStar, FaHistory } from "react-icons/fa";
 import { BsFillCollectionFill } from "react-icons/bs";
 import { AiFillHome } from "react-icons/ai";
-
-const SidebarView = () => {
+const SidebarView = ({ onClickHandler }: { onClickHandler: Function }) => {
   return (
     <section className="fixed h-screen p-4 ml-1 pl-8 w-[250px] border-2 rounded-lg">
       <header className="font-bold text-4xl pt-4">NFTrey</header>
@@ -20,15 +19,20 @@ const SidebarView = () => {
       <div className="flex  flex-col relative top-6">
         <span className="text-black text-xl py-3"></span>
 
-        <div className="flex items-center  gap-3 text-xl py-0.5">
+        <button
+          className="flex items-center  gap-3 text-xl py-0.5"
+          onClick={() => {
+            onClickHandler("home");
+          }}
+        >
           <AiFillHome className="" />
           <span>Home</span>
-        </div>
+        </button>
 
-        <div className="flex items-center  gap-3 text-xl py-0.5">
+        <button className="flex items-center  gap-3 text-xl py-0.5">
           <BsFillHandbagFill className="" />
           <span>Market</span>
-        </div>
+        </button>
 
         {/* <div className=" flex items-center gap-3 text-xl py-0.5">
           <ImHammer2 />
@@ -44,7 +48,12 @@ const SidebarView = () => {
       <div className="flex  flex-col relative top-7 py-7">
         <span className="text-black text-xl py-3">MY PROFILE</span>
 
-        <button className=" flex items-center gap-3 text-xl py-0.5">
+        <button
+          className=" flex items-center gap-3 text-xl py-0.5"
+          onClick={() => {
+            onClickHandler("mint");
+          }}
+        >
           <ImUpload2 />
           <span>Mint NFT</span>
         </button>

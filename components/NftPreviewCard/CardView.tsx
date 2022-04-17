@@ -13,7 +13,7 @@ import { NFTType } from "../../utils/types";
 //   price?: Number;
 // };
 
-const CardPreview = ({ nftData }: { nftData: NFTType }) => {
+const CardView = ({ nftData }: { nftData: NFTType }) => {
   return (
     <div className=" w-96 h-96 max-w-3xl rounded-md overflow-hidden shadow-xl px-2 pt-12 border-2 border-gray-500 dark:border-white my-10">
       <div className="overflow-hidden border-b-2">
@@ -39,4 +39,4 @@ const CardPreview = ({ nftData }: { nftData: NFTType }) => {
   );
 };
 
-export default CardPreview;
+export default CardView;
