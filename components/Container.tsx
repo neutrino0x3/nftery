@@ -1,4 +1,4 @@
-import { SidebarContainer } from "../components/Sidebar";
+import Sidebar from "../components/Sidebar";
 import Head from "next/dist/shared/lib/head";
 import ToggleDark from "./ToggleDarkMode";
 import Navbar from "./Navbar";
@@ -13,8 +13,9 @@ const Container = ({ children }) => {
       </Head>
       <main
         className="flex font-secular text-black
-      ">
-        <SidebarContainer />
+      "
+      >
+        <Sidebar />
         <section>
           <Navbar />
           {children}

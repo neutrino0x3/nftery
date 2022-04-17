@@ -1,17 +1,5 @@
 import { faker } from "@faker-js/faker";
-
-type NFTType = {
-  tokenId: Number;
-  creator: String;
-  owner: String;
-  title: String;
-  description: String;
-  imageURI: String;
-  isMarketItem: Boolean;
-  seller?: String;
-  price?: Number;
-};
-
+import { NFTType } from "../utils/types";
 export const fetchAllNft = (count: Number) => {
   let res = [];
   for (let i = 0; i < count; i++) {

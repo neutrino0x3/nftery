@@ -1,7 +1,5 @@
 import SidebarView from "./SidebarView";
 
-const SidebarContainer = () => {
+export const SidebarContainer = () => {
   return <SidebarView />;
 };
-
-export default SidebarContainer;

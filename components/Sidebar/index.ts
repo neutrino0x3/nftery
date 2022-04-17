@@ -1,3 +1,1 @@
-import SidebarContainer from "./SidebarContainer";
-
-export { SidebarContainer };
+export { SidebarContainer as default } from "./SidebarContainer";
