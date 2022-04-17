@@ -14,55 +14,50 @@ import { AiFillHome } from "react-icons/ai";
 
 const SidebarView = () => {
   return (
-    <section className="flex flex-col m-4 ml-1 pl-8 w-80 border-2 rounded-lg">
-      <header className="font-bold text-4xl pt-4">NFTrey</header>
+    <section className="flex flex-col m-8 w-80 border-2 rounded-lg p-6 justify-start gap-y-8">
+      <header className="font-bold text-4xl pt-4 text-center w-full">
+        NFTrey
+      </header>
 
-      <div className="flex  flex-col relative top-6">
-        <span className="text-black text-xl py-3"></span>
-
-        <div className="flex items-center  gap-3 text-xl py-0.5">
+      <div className="flex flex-col pt-24 pl-8 justify-center">
+        <button className="flex items-center gap-5 text-xl py-1.5">
           <AiFillHome className="" />
           <span>Home</span>
-        </div>
+        </button>
 
-        <div className="flex items-center  gap-3 text-xl py-0.5">
+        <button className="flex items-center gap-5 text-xl py-1.5">
           <BsFillHandbagFill className="" />
           <span>Market</span>
-        </div>
+        </button>
 
-        {/* <div className=" flex items-center gap-3 text-xl py-0.5">
-          <ImHammer2 />
-          <span>Active Bid</span>
-        </div> */}
-
-        <div className=" flex items-center gap-3 text-xl py-0.5">
+        <button className="flex items-center gap-5 text-xl py-1.5">
           <BsFillBookmarkStarFill />
           <span>Saved</span>
-        </div>
+        </button>
       </div>
 
-      <div className="flex  flex-col relative top-7 py-7">
-        <span className="text-black text-xl py-3">MY PROFILE</span>
+      <div className="h-2 w-full bg-midBlue"></div>
 
-        <div className=" flex items-center gap-3 text-xl py-0.5">
+      <div className="flex flex-col pl-8 justify-center">
+        <button className="flex items-center gap-5 text-xl py-1.5">
           <ImUpload2 />
           <span>Mint NFT</span>
-        </div>
+        </button>
 
-        <div className=" flex items-center gap-3 text-xl py-0.5">
+        <button className="flex items-center gap-5 text-xl py-1.5">
           <BsFillCollectionFill />
           <span>My Collection</span>
-        </div>
+        </button>
 
-        <div className=" flex items-center gap-3 text-xl py-0.5">
+        <button className="flex items-center gap-5 text-xl py-1.5">
           <FaHistory />
           <span>History</span>
-        </div>
+        </button>
 
-        <div className=" flex items-center gap-3 text-xl py-0.5">
+        <button className="flex items-center gap-5 text-xl py-1.5">
           <FaStar />
           <span>Favourite</span>
-        </div>
+        </button>
       </div>
 
       {/* <div class="flex items-center justify-center w-full mb-12">
@@ -72,8 +67,7 @@ const SidebarView = () => {
     class="flex items-center cursor-pointer"
   >
     <!-- toggle -->
-    <div class="relative">
-      <!-- input -->
+    <div class=   <!-- input -->
       <input id="toogleA" type="checkbox" class="sr-only" />
       <!-- line -->
       <div class="w-10 h-4 bg-gray-400 rounded-full shadow-inner"></div>

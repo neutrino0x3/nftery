@@ -11,9 +11,11 @@ const Container = ({ children }) => {
         <meta name="robots" content="follow, index" />
         <meta content="An NFT Marketplace" name="description" />
       </Head>
-      <main className="flex font-secular text-black h-screen w-screen">
+      <main
+        className="flex font-secular text-black
+      ">
         <SidebarContainer />
-        <section className="w-full">
+        <section>
           <Navbar />
           {children}
         </section>

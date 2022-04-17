@@ -4,7 +4,7 @@ import { fetchAllNft } from "../../services/web3DataStore";
 
 const CardPreview = () => {
   return (
-    <div className="max-w-xs rounded-md overflow-hidden shadow-xl px-2 pt-12 border-2 border-gray-500 dark:border-white my-10">
+    <div className="w-96 h-96 max-w-3xl rounded-md overflow-hidden shadow-xl px-2 pt-12 border-2 border-gray-500 dark:border-white my-10">
       <div className="overflow-hidden border-b-2">
         <img src="" alt="" />
       </div>
@@ -18,7 +18,7 @@ const CardPreview = () => {
         </div>
 
         <div className="flex items-center justify-between ">
-          <span></span>
+          <span>Price:0.00004</span>
           <button className="border-2 rounded-xl px-4 py-2 hover:bg-black hover:text-white">
             Buy Now
           </button>
