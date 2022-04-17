@@ -1,8 +1,8 @@
-import Container from "../components/Container";
-import SideBar from "../components/SideBar";
+import Sidebar from "../components/Sidebar";
 
 const home = () => {
-  return <SideBar />;
+  // return <></>;
+  return <Sidebar />;
 };
 
 export default home;
