@@ -11,7 +11,7 @@ const Container = ({ children }) => {
         <meta name="robots" content="follow, index" />
         <meta content="An NFT Marketplace" name="description" />
       </Head>
-      <main className="flex font-secular">
+      <main className="flex font-secular text-black h-screen w-screen">
         <SidebarContainer />
         <section className="w-full">
           <Navbar />

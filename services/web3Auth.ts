@@ -1,4 +1,4 @@
-type StateType = {
+type AuthState = {
   provider?: any;
   web3Provider?: any;
   address?: string;
@@ -7,13 +7,13 @@ type StateType = {
 
 export const web3Login = () => {
   return new Promise((resolve, reject) => {
-    const notLoggedIn: StateType = {
+    const notLoggedIn: AuthState = {
       provider: null,
       web3Provider: null,
       address: null,
       chainId: null,
     };
-    const loggedIn: StateType = {
+    const loggedIn: AuthState = {
       provider: "null",
       web3Provider: "null",
       address: "0x8rqe7fgo8r7",

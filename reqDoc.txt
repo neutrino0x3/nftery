@@ -16,6 +16,12 @@
 3. mint
 4. account
 
+- mvp
+1. home - list all nfts
+2. marketplace - list all for sale nft
+3. my collection - list all nfts owned by user
+4. mint - mint new nft
+
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

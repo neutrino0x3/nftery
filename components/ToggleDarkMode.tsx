@@ -15,14 +15,16 @@ const ToggleDark = () => {
         aria-label="Toggle Dark Mode"
         type="button"
         className="w-8 h-8 md:w-10 md:h-10 rounded-full focus:outline-none flex items-center justify-center bg-yellow-400"
-        onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
+        onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+      >
         {mounted && (
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentColor"
             stroke="currentColor"
-            className="w-4 h-4 md:w-5 md:h-5 text-black">
+            className="w-4 h-4 md:w-5 md:h-5 text-black"
+          >
             {theme === "dark" ? (
               <path
                 strokeLinecap="round"
